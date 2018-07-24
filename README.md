@@ -2,13 +2,27 @@
 
 Monorepo for projects in early stages.
 
-## Demo
+## Content
 
-> TODO: Add demo
+> TODO: Add TOC
+
+## Demos
+
+> TODO: Add demos
 
 ## Usage
 
-> TODO: Add usage
+```bash
+# Install dependencies #1
+npm install
+# Install dependencies #2
+npm run bootstrap
+# Start development services (check out the individual packages for more details)
+npm run dev
+# Now make your changes! Updated services will automatically restart on save.
+# Start individual package (take a look at each service's `package.json` for more details)
+npx lerna run start --scope @coffeecodecontribute-incubator/your-package
+```
 
 ## Screenshots
 
