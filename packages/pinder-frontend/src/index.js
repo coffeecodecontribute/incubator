@@ -10,8 +10,12 @@ ReactDOM.render(
   <Fragment>
     <Navigation />
     <Content />
-    <Image />
-    <Article/>
+    <Image
+      alt="Panda"
+      src="https://www.seokratie.de/wp-content/uploads/2014/05/panda-800x593.jpg"
+      description="An awesome panda"
+    />
+    <Article />
     <Footer />
   </Fragment>,
   document.getElementById("root")
