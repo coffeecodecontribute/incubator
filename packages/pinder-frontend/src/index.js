@@ -1,4 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
+import { Navigation } from "./components/Navigation";
+import { Footer } from "./components/Footer";
+import { Content } from "./components/Content";
 
-ReactDOM.render(<h1>Hello world </h1>, document.getElementById("root"));
+ReactDOM.render(
+  <Fragment>
+    <Navigation />
+    <Content />
+    <Footer />
+  </Fragment>,
+  document.getElementById("root")
+);
