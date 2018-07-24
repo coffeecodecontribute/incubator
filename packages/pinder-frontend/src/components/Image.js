@@ -1,8 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-export const Image = () => (
-  <img
-    alt="Panda"
-    src="https://www.seokratie.de/wp-content/uploads/2014/05/panda-800x593.jpg"
-  />
+export const Image = ({ alt, src, description }) => (
+  <Fragment>
+    <img alt={alt} src={src} />
+    <div>
+      <em>{description}</em>
+    </div>
+  </Fragment>
 );
