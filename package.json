@@ -14,7 +14,7 @@
   "version": "0.0.1-alpha",
   "main": "README.md",
   "scripts": {
-    "dev": "nodemon --exec lerna run dev --parallel",
+    "dev": "lerna run dev --parallel",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test --parallel"
   },
