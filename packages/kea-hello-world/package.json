@@ -1,12 +1,12 @@
 {
-  "name": "@coffeecodecontribute/pojntfx-hello-world",
+  "name": "@coffeecodecontribute/kea-hello-world",
   "version": "0.0.1-0",
-  "description": "Says hello world from pojntfx",
+  "description": "says hello from Keaa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node index.js"
   },
-  "author": "Felicitas Pojtinger <felicitas@pojtinger.com>",
+  "author": "Kea von Daak <kea.vondaak@gmail.com>",
   "license": "AGPL-3.0"
 }
